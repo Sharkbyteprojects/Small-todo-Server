@@ -25,5 +25,5 @@ app.get("/",(req,res)=>{
 api(app, dbCollection, db, ad);
 app.use(express.static('static'))
 http.listen(3000, () => {
-  console.log('Server listening on http://localhost:3000');
+  console.log('Server listening on http://localhost:3000\n\tON DOCKER: http://localhost:8080');
 });
