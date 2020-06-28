@@ -7,7 +7,7 @@ services:
       - 27017:27017
   todo:
     build:
-      context: "Todo Server"
+      context: "Todo_Server"
     depends_on:
       - "mongodb"
     ports:

@@ -1,0 +1,21 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "description": "Saves todo's on Mongo db",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --inspect index.js",
+    "startdb": "mongod --dbpath db",
+    "db":"npm run startdb",
+    "start": "node index.js"
+  },
+  "author": "Sharkbyteprojects",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "mongodb": "^3.5.7",
+    "morgan": "^1.10.0"
+  }
+}

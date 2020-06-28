@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SharkByte TODO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" type="text/javascript"></script>
+    <script src="/main.js" charset="utf-8"></script>
+    <style media="screen">
+      .che:not(:hover){background-color:#d9edf7 !important;}
+      .che:hover{background-color:#b3e5fe !important;}
+      .mbb{position:fixed;bottom:0;}
+      input[type=checkbox].filter
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.6); /* IE */
+  -moz-transform: scale(1.6); /* FF */
+  -webkit-transform: scale(1.6); /* Safari and Chrome */
+  -o-transform: scale(1.6); /* Opera */
+  transform: scale(1.6);
+  padding: 80px;
+} input[type=checkbox]:not(.filter)
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 80px;
+}
+    </style>
+  </head>
+  <body class="container">
+    <h1>SHARKTODO</h1>
+    <div class="form-group"><input placeholder="ADD SOME ELEMENTS" id="addtopicdf" class="addtopicdf form-control" value=""><button type="button" class="form-control send btn btn-success" disabled="true">Add</button></div>
+    <hr>
+    <input class="filter" type="checkbox"> Show only Incomplete Tasks
+    <hr>
+    <div class="xcond">
+      <table class="table table-hover table-condensed">
+    <thead>
+      <tr>
+        <th class="danger"><object data="/trash.svg" height="50">
+          Trash
+        </object></th>
+        <th>Completed</th>
+        <th>TODO</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody></table>
+    </div>
+    <div class="alert alert-info">
+      <strong>Sharkbyteprojects</strong> <br><a href="https://bit.ly/BlogShark2" target="_blank"><button class="form-control btn btn-primary">VISIT SHARKBYTES BLOG</button></a>
+    </div>
+    <div style="display:none;" class="mbb container form-group alert alert-danger"><strong>Are you sure to Remove this element?</strong><br>
+    <button type="button" class="yes byes form-control btn btn-danger">YES</button>
+    <button type="button" class="no bno form-control btn btn-success">NO</button></div>
+  </body>
+</html>
