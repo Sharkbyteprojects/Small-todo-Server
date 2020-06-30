@@ -5,8 +5,8 @@ services:
     container_name: "mongodb"
     volumes: 
       - "./db:/data/db"
-    ports:
-      - 27017:27017
+    expose:
+      - "27017"
   todo:
     build:
       context: "Todo_Server"
