@@ -1,5 +1,7 @@
 # Small-todo-Server
 
+[![Known Vulnerabilities](https://snyk.io/test/github/Sharkbyteprojects/Small-todo-Server/badge.svg?targetFile=Todo_Server/package.json)](https://snyk.io/test/github/Sharkbyteprojects/Small-todo-Server?targetFile=Todo_Server/package.json)
+
 YOU CAN ADD AUTH VIA AN NGINX PROXY SERVER
 
 
